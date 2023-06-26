@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 
+
+
 * {
   font-family: "Poppins", sans-serif;
 }
 html {
   scroll-behavior: smooth;
+  --s :32;
   scrollbar-track-color: #35ff33;
 }
 
@@ -27,8 +30,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 20px;
-  padding-bottom:10px;
+  padding: 40px;
+  padding-bottom: 40px;
   border-radius: 10px;
 }
 
@@ -46,10 +49,8 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 6.5em;
-  padding: 30px;
-  margin-left: 2rem;
-  width: 40vw;
-  height: 30vh;
+  margin: 20px;
+  height: 20rem;
   font-family: "Roboto Slab", serif;
   transition: all;
   transition-property: width;
@@ -157,15 +158,30 @@ ul li a:hover {
   transform-origin: bottom left;
 }
 
-@media only screen and (max-width: 750px) {
-  body {
-/*     background-color: blue; */
-       display: inline;
-  }
-  #menu,
-  #contact {
+@media only screen and (max-width: 880px) {
+ 
+  #menu,#contact {
     visibility: hidden;
   }
+   
+  .content{
+    width: 20%;
+    font-size: 4.2em !important;
+  }
+
+ .service-container > .block {
+    width: 100%;
+    height: 50%;
+  }
+
+.imagecontainer{
+  display: inline-block;
+}
+
+.imagecontainer img{
+
+}
+
 }
 
 .link:hover {
@@ -201,10 +217,10 @@ ul li a:hover {
   border-radius: 15px;
   flex-shrink: 1;
   background-color: rgb(255, 255, 224, 0.5);
-  width: 30vw;
+  width: 30%;
   height: auto;
   align-items: center;
-  margin: 5px;
+  margin: 0.5%;
   padding: 10px;
   text-align: center;
   font-family: "Poppins", sans-serif;
