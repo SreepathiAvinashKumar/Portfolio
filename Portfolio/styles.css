@@ -7,7 +7,6 @@
 }
 html {
   scroll-behavior: smooth;
-  --s :32;
   scrollbar-track-color: #35ff33;
 }
 
@@ -29,10 +28,10 @@ body {
   background-color: rgb(255, 255, 224, 0.5);
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
   justify-content: space-evenly;
-  padding: 40px;
-  padding-bottom: 40px;
-  border-radius: 10px;
+  margin: 1em;
 }
 
 .imagecontainer {
@@ -49,7 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 6.5em;
-  margin: 20px;
+  margin: 10px;
   height: 20rem;
   font-family: "Roboto Slab", serif;
   transition: all;
@@ -63,6 +62,10 @@ width: 25px;
 }
 .contact-icons > .contact-li{
   font-size: 1.4em !important;
+}
+
+.landingpage > .contact-icons{
+margin: 2px;
 }
 
 ul li {
@@ -96,7 +99,7 @@ ul li:hover::after {
   color: rgba(0, 0, 0, 0.74);
   transition-duration: 0.6s;
   transition-timing-function: ease-in-out;
-}
+} 
 
 ul li a {
   text-decoration: none;
