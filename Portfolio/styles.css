@@ -176,17 +176,10 @@ ul li a:hover {
 
 .imagecontainer{
   display: inline-block;
-  justify-content: center;
-
 }
-
-.service{
-  width: 100%;
-  height: auto;
-  z-index: 3;
-position: absolute;
+.service-container > .service{
+height: auto;
 }
-
 }
 
 .link:hover {
@@ -255,7 +248,7 @@ position: absolute;
   margin: 5px;
   padding: 20px;
   width: 100%;
-  height: auto;
+  height: 250px;
   font-family: "Poppins", sans-serif;
 }
 
