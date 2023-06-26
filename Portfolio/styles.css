@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 40px;
+  padding: 20px;
   padding-bottom: 40px;
   border-radius: 10px;
 }
