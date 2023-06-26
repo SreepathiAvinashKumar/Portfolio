@@ -178,8 +178,11 @@ ul li a:hover {
   display: inline-block;
 }
 
-.imagecontainer img{
-
+.service{
+  width: 100%;
+  height: auto;
+  z-index: 3;
+  
 }
 
 }
