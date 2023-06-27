@@ -42,6 +42,10 @@ body {
   margin: 1rem;
   /* margin-right:9rem; */
 }
+.imagecontainer >{
+  pointer-events: none;
+}
+
 .landingpage > .content {
   display: flex;
   flex-direction: column;
