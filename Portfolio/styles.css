@@ -383,7 +383,7 @@ visibility: hidden;
   flex-direction: column;
   align-items: center;
   align-items: center;
-  transition: all 0/5s ease-out;
+  transition: all 0.5s ease-out;
 }
 #burger-lists > li {
   margin: 5%;
