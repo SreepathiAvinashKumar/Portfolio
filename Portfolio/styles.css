@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 
-
-
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -56,16 +54,16 @@ body {
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
 }
-.contact-icon{
-width: 25px;
-width: 25px;
+.contact-icon {
+  width: 25px;
+  width: 25px;
 }
-.contact-icons > .contact-li{
+.contact-icons > .contact-li {
   font-size: 1.4em !important;
 }
 
-.landingpage > .contact-icons{
-margin: 2px;
+.landingpage > .contact-icons {
+  margin: 2px;
 }
 
 ul li {
@@ -99,7 +97,7 @@ ul li:hover::after {
   color: rgba(0, 0, 0, 0.74);
   transition-duration: 0.6s;
   transition-timing-function: ease-in-out;
-} 
+}
 
 ul li a {
   text-decoration: none;
@@ -162,27 +160,44 @@ ul li a:hover {
 }
 
 @media only screen and (max-width: 880px) {
- 
-  #menu,#contact {
+  #menu,
+  #contact {
     visibility: hidden;
   }
-   
-  .content{
+
+  .content {
     width: 20%;
     font-size: 4.2em !important;
   }
 
- .service-container > .block {
+  .service-container > .block {
     width: 100%;
     height: 50%;
   }
 
-.imagecontainer{
-  display: inline-block;
+  .imagecontainer {
+    display: inline-block;
+  }
+  .service-container > .service {
+    height: auto;
+  }
 }
-.service-container > .service{
-height: auto;
-}
+
+@media only screen and (max-width: 718px) {
+ .imagecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+ }
+
+
 }
 
 .link:hover {
