@@ -181,23 +181,25 @@ ul li a:hover {
   .service-container > .service {
     height: auto;
   }
+
+  #menu-button {
+    visibility: visible !important;
+  }
 }
 
 @media only screen and (max-width: 718px) {
- .imagecontainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
- .content{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 10px;
- }
-
-
+  .imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 .link:hover {
@@ -312,4 +314,46 @@ ul li a:hover {
   opacity: 0.7;
   top: 50px;
   transform: skewY(30deg);
+}
+
+.menubar-bar {
+  font-size: 3em;
+
+  font-weight: bold;
+  width: 35px;
+  transition: 0.4s;
+  height: 6px;
+  margin: 3px;
+  background-color: black;
+}
+
+#menu-button {
+  display: flex;
+  width: 40px;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  flex-direction: column;
+  align-items: flex-end;
+  visibility: hidden;
+}
+
+.changebar-1 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.changebar-2 {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.changebar-3 {
+  position: relative;
+  transform: rotate(-45deg);
+  bottom: 13px;
+  transition: all 0.5s ease-in-out;
 }
