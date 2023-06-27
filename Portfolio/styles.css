@@ -42,7 +42,7 @@ body {
   margin: 1rem;
   /* margin-right:9rem; */
 }
-.imagecontainer > #black-background{
+.imagecontainer > img{
   pointer-events: none;
 }
 
