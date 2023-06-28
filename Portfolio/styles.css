@@ -254,9 +254,7 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  -webkit-box-shadow: 5px 0px 24px -3px rgba(0, 0, 0, 0.53);
-  -moz-box-shadow: 5px 0px 24px -3px rgba(0, 0, 0, 0.53);
-  box-shadow: 5px 0px 24px -3px rgba(0, 0, 0, 0.53);
+  box-shadow: 3px 1px 10px -3px rgba(0, 0, 0, 0.53);
   border: none;
 }
 .block h2 {
@@ -267,7 +265,7 @@ ul li a:hover {
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(20px);
   transform: rotateY(15deg);
-  box-shadow: 5px 0px 24px -3px rgba(0, 0, 0, 0.63);
+  box-shadow: 3px 1px 10px -3px rgba(0, 0, 0, 0.63);
   
 }
 .block h2 {
