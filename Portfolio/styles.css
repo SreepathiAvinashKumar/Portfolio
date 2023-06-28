@@ -11,26 +11,21 @@ html {
 body {
   cursor: url("Icons/cusor.png"), auto;
   border-radius: 10px;
-  /* font-weight: 600; */
-  /* background-color: rgb(240, 128, 128,0.5); */
-  /* background-color: rgb(173, 216, 230,0.6); */
 }
 
 .navigation {
   border-radius: 5px;
-  /* background-color: rgba(0, 0, 0, 0.329); */
   position: sticky;
   top: 0;
 }
 
 .landingpage {
-  /* background-color: rgb(255, 255, 224, 0.5); */
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
-  margin: 1em;
 }
 
 .imagecontainer {
@@ -71,7 +66,6 @@ body {
 }
 
 ul li {
-  /* float: left; */
   list-style-type: none;
   margin-right: 30px;
   margin-left: 20px;
@@ -192,6 +186,14 @@ ul li a:hover {
   }
 }
 
+@media only screen and (min-width: 880px) {
+  #burger-lists {
+    display: none !important;
+  }
+}
+
+
+
 @media only screen and (max-width: 718px) {
   .imagecontainer {
     display: flex;
@@ -208,7 +210,6 @@ ul li a:hover {
 }
 
 .link:hover {
-  /* background-color: black; */
   border-radius: 5px;
 }
 #loader {
@@ -239,7 +240,6 @@ ul li a:hover {
   transition-duration: 0.7s;
   border-radius: 15px;
   flex-shrink: 1;
-  /* background-color: rgb(255, 255, 224, 0.5); */
   width: 30%;
   height: auto;
   align-items: center;
@@ -271,7 +271,6 @@ ul li a:hover {
   box-shadow: 5px 0px 24px -3px rgba(0, 0, 0, 0.33);
   border: none;
   text-align: center;
-  /* background-color: rgb(255, 255, 224, 0.5);  */
   border-radius: 10px;
   margin: 5px;
   padding: 20px;
@@ -288,7 +287,6 @@ ul li a:hover {
 
   display: flex;
   justify-content: center;
-  /* background-color: rgb(255, 255, 224, 0.5); */
 }
 .nextwindow img {
   opacity: 0.6;
@@ -363,8 +361,9 @@ ul li a:hover {
   position: relative;
   transform: rotate(-45deg);
   bottom: 13px;
-  /* transition: all 0.5s ease-in-out; */
 }
+
+
 #burger-lists {
   display: flex;
   flex-direction: column;
@@ -372,10 +371,9 @@ ul li a:hover {
   font-size: 2em;
 visibility: hidden;
   cursor: pointer;
-  background-color: lightcyan;
+  background-color: rgba(136, 214, 214, 0.575);
   columns: white;
   width: 100%;
-  /* transition: visibility 0.5s ease-out; */
   z-index: 4;
 }
 .burgermenulist{
@@ -387,7 +385,6 @@ visibility: hidden;
 }
 #burger-lists > li {
   margin: 5%;
-  /* transition: all 0.5s ease-in-out; */
 
 }
 /* #background-video {
