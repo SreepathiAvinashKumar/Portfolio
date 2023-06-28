@@ -378,7 +378,7 @@ height: auto;
   font-size: 2em;
 visibility: hidden;
   cursor: pointer;
-  background-color: rgba(136, 214, 214, 0.575);
+  background-color: white;
   columns: white;
   width: 100%;
   z-index: 4;
