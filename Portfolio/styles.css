@@ -20,12 +20,12 @@ body {
 }
 
 .landingpage {
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
+  margin: 0 !important;
 }
 
 .imagecontainer {
