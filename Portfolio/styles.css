@@ -204,12 +204,20 @@ ul li a:hover {
     width: 100%;
     padding: 10px;
   }
+  .imagecontainer img{
+    transform: translate(-5px);
+  }
+
   .contact-icons{
     margin:0 !important;
     }
     .contact-icons a {
-      margin: 5px;
+      margin: 0;
     }
+    .mind-icon{
+      display: none;
+    }
+
 }
 
 .link:hover {
