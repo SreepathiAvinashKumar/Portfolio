@@ -215,7 +215,7 @@ ul li a:hover {
       margin: 0;
     }
     .mind-icon{
-      display: none;
+      display: none !important;
     }
 
 }
